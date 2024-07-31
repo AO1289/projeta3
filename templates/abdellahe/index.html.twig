@@ -1,0 +1,375 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Abdellahe{% endblock %}
+
+{% block body %}
+<div id="presentation" class="my-8 w-84 bg-white p-8 rounded shadow-lg text-center flex justify-center  ">
+  <h1 class="text-2xl font-medium">Bienvenue pour la présentation de TailwindCSS et Flowbite</h1><br>
+</div>
+<div class="flex justify-center mb-24">
+<div id="accordion-open" data-accordion="open">
+  <h2 id="accordion-open-heading-1">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-open-body-1" aria-expanded="true" aria-controls="accordion-open-body-1">
+      <span class="flex items-center"><svg class="w-5 h-5 me-2 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg> Qu'est-ce que Flowbite ?</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-open-body-1" class="hidden" aria-labelledby="accordion-open-heading-1">
+    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite est une bibliothèque d'interfaces utilisateur qui fonctionne avec Tailwind CSS. Elle propose des composants prêts à l'emploi, comme des boutons, des formulaires, <br>
+      des cartes, des modales, des barres de navigation, et plus encore, qui sont construits en utilisant les classes utilitaires de Tailwind CSS.  <br>
+      Flowbite permet aux développeurs de gagner du temps en fournissant des composants pré-construits et stylisés, tout en conservant la flexibilité de les personnaliser facilement avec Tailwind.</p>
+     
+    </div>
+  </div>
+  <h2 id="accordion-open-heading-2">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-open-body-2" aria-expanded="false" aria-controls="accordion-open-body-2">
+      <span class="flex items-center"><svg class="w-5 h-5 me-2 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>Qu'est ce que Tailwind CSS</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-open-body-2" class="hidden" aria-labelledby="accordion-open-heading-2">
+    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">Tailwind CSS est un framework CSS utilitaire-first, ce qui signifie qu'il se base sur des classes <br>
+       utilitaires de faible niveau pour construire des interfaces utilisateur. Plutôt que d'écrire du CSS personnalisé, <br>
+       Tailwind CSS fournit une vaste bibliothèque de classes pré-définies qui couvrent tous les aspects du design web, tels que la mise en page, la typographie, la couleur, les ombres, et bien plus encore.
+    </div>
+  </div>
+  <h2 id="accordion-open-heading-3">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-open-body-3" aria-expanded="false" aria-controls="accordion-open-body-3">
+      <span class="flex items-center"><svg class="w-5 h-5 me-2 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg> Quelles sont les différences entre Flowbite et Tailwind UI ?</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-open-body-3" class="hidden" aria-labelledby="accordion-open-heading-3">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">La principale différence réside dans le fait que les composants de base de Flowbite sont open source sous licence MIT, alors que Tailwind UI est un produit payant. Une autre différence est que Flowbite s'appuie sur des composants plus petits et autonomes, alors que Tailwind UI propose des sections de pages.</p>
+      <p class="mb-2 text-gray-500 dark:text-gray-400">Cependant, il est recommandé d'utiliser à la fois Flowbite et Tailwind UI, car aucune raison technique n'empêche de les utiliser.</p>
+      <p class="mb-2 text-gray-500 dark:text-gray-400">En savoir plus sur ces technologies :</p>
+      <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
+        <li><a href="https://flowbite.com/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite</a></li>
+        <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="presentation" class="my-8 w-84 bg-white p-8 rounded shadow-lg text-center flex justify-center  ">
+  <h1 class="text-2xl font-medium">Installation de TailwindCSS et Flowbite dans Symfony</h1><br>
+</div>
+<div  class="flex justify-center items-center mb-24 flex-col">
+<hr class="w-48 h-1 mx-auto my-4 bg-purple-700 border-0 rounded md:my-10 dark:bg-gray-900">
+<h5 class="text-center mb-8  text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Création d'un projet Symfony 6</h5>
+<a class="block mb-8 p-6  bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<p class="text-center font-normal text-gray-700 dark:text-gray-400">Taper la commande dans le terminal : <br> <span class="font-medium">"symfony new nom_projet --version="6.4.*" --webapp"</span></p>
+</a>
+<hr class="w-48 h-1 mx-auto my-4 bg-purple-700 border-0 rounded md:my-10 dark:bg-gray-900">
+<h5 class="text-center mb-8  text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Puis installons Webpack Encore</h5>
+<a class="block mb-8 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<p class="leading-loose text-center font-normal text-gray-700 dark:text-gray-400">Taper ensuite la commande : <br><span class="font-medium">
+"composer require webapp <br>
+
+composer remove symfony/asset-mapper<br>
+composer require symfony/webpack-encore-bundle<br>
+composer require symfony/stimulus-bundle<br>
+composer require symfony/ux-autocomplete<br>
+
+npm install -f<br>
+npm run build"</span></p>
+</a>
+<hr class="w-48 h-1 mx-auto my-4 bg-purple-700 border-0 rounded md:my-10 dark:bg-gray-900">
+
+<h5 class="text-center mb-8  text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Correction du bug <span class="font-medium">"ERROR  Failed to compile with 1 errors"</span></h5>
+<svg class="mb-6 w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M17 20v-5h2v6.988H3V15h1.98v5H17Z"/>
+  <path d="m6.84 14.522 8.73 1.825.369-1.755-8.73-1.825-.369 1.755Zm1.155-4.323 8.083 3.764.739-1.617-8.083-3.787-.739 1.64Zm3.372-5.481L10.235 6.08l6.859 5.704 1.132-1.362-6.859-5.704ZM15.57 17H6.655v2h8.915v-2ZM12.861 3.111l6.193 6.415 1.414-1.415-6.43-6.177-1.177 1.177Z"/>
+</svg>
+
+<a class="block mb-8 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<p class="leading-loose font-normal text-gray-700 dark:text-gray-400">Vérifier si le paquet <span class="font-medium">« @symfony/stimulus-bridge »</span> est installé dans le <span class="font-medium">package.json</span> <br>
+Dans <span class="font-medium">assets/app.js</span>, ajoutez la ligne <span class="font-medium">import './bootstrap.js' ;</span><br>
+Dans <span class="font-medium">assets/bootstrap.js</span> changez le bundle en bridge > <span class="font-medium">import { startStimulusApp } from '@symfony/stimulus-bridge' ;</span><br>
+Dans <span class="font-medium">webpack.config.js</span>, ajoutez la ligne <span class="font-medium">.enableStimulusBridge('./assets/controllers.json')</span> pour importer le fichier des contrôleurs.<br>
+Supprimer le dossier <span class="font-medium">node_modules</span> puis installer et reconstruire node_modules à nouveau : <br>
+<span class="font-medium">"rm -rf node_modules<br>
+npm i -f<br>
+npm run build"</span></p>
+
+<p class="text-center mb-6"><svg class="mt-6 w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 5 9 4V3m5 2 1-1V3m-3 6v11m0-11a5 5 0 0 1 5 5m-5-5a5 5 0 0 0-5 5m5-5a4.959 4.959 0 0 1 2.973 1H15V8a3 3 0 0 0-6 0v2h.027A4.959 4.959 0 0 1 12 9Zm-5 5H5m2 0v2a5 5 0 0 0 10 0v-2m2.025 0H17m-9.975 4H6a1 1 0 0 0-1 1v2m12-3h1.025a1 1 0 0 1 1 1v2M16 11h1a1 1 0 0 0 1-1V8m-9.975 3H7a1 1 0 0 1-1-1V8"/>
+</svg>Normalement l'erreur sera résolue</p>
+
+<div class="flex items-center justify-center">
+    <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+</div>
+</a>
+
+<hr class="w-48 h-1 mx-auto my-4 bg-purple-700 border-0 rounded md:my-10 dark:bg-gray-900">
+
+<h5 class="text-center mb-8  text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Installation de Tailwind CSS</h5>
+<svg class="mb-6 w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M11.782 5.72a4.773 4.773 0 0 0-4.8 4.173 3.43 3.43 0 0 1 2.741-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.934-2.865 3.137-3.921-.969 1.379-2.44 2.207-4.259 1.231-1.253-.673-2.19-3.438-5.959-3.318ZM6.8 11.979A4.772 4.772 0 0 0 2 16.151a3.431 3.431 0 0 1 2.745-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.933-2.865 3.137-3.921-.97 1.379-2.44 2.208-4.259 1.231-1.253-.673-2.19-3.443-5.963-3.317Z"/>
+</svg>
+
+<a class="block mb-8 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<p class="leading-loose font-normal text-gray-700 dark:text-gray-400">Tapez la commande <span class="font-medium">"npm install -D tailwindcss postcss postcss-loader autoprefixer
+npx tailwindcss init -p"</span><br>
+
+Dans le fichier <span class="font-medium">"webpack.config.js"</span> ajouter :<br>
+
+<span class="font-medium">".enablePostCssLoader()"</span><br>
+
+Dans le fichier <span class="font-medium">"tailwind.config.js"</span> ajouter :<br>
+<span class="font-medium">
+"module.exports = {<br>
+  content: [<br>
+    
+    "./assets/**/*.js",<br>
+    "./templates/**/*.html.twig",<br>
+  ],<br>
+  theme: {<br>
+    extend: {},<br>
+  },<br>
+  plugins: [],<br>
+}"</span><br>
+Dans <span class="font-medium">./assets/styles/app.css</span> modifier le fichier app.css et ajouter : <br>
+<span class="mt-6 font-medium">"@tailwind base;<br>
+@tailwind components;<br>
+@tailwind utilities;"</span><br>
+
+Lancer <span class="font-medium">"npm run watch"</span> dans le terminal pour modifier sa page et normalement tout fonctionnera convenablement</p><br>
+</a>
+
+<hr class="w-48 h-1 mx-auto my-4 bg-purple-700 border-0 rounded md:my-10 dark:bg-gray-900">
+
+<h5 class="text-center mb-8  text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Installation de Flowbite</h5>
+<svg class="mb-6 w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M15.907 11.998 10.332 9.23a.9.9 0 0 1-.16-.037l-.018-.007v6.554c0 .017.008.034.01.051l2.388-2.974 3.355-.82Z"/>
+  <path d="m11.463 4.054 5.579 3.323A4.02 4.02 0 0 1 18.525 9c.332.668.47 1.414.398 2.155a3.07 3.07 0 0 1-.745 1.65 3.108 3.108 0 0 1-1.55.951c-.022.007-.045.005-.07.01-.062.03-.126.057-.191.08l-2.72.667-1.992 2.48c-.18.227-.41.409-.67.534.047.034.085.077.137.107a2.05 2.05 0 0 0 1.995.035c.592-.33 2.15-1.201 4.636-2.892l.28-.19c1.328-.895 3.616-2.442 3.967-4.215a9.94 9.94 0 0 0-1.713-4.154 10.027 10.027 0 0 0-3.375-2.989 10.107 10.107 0 0 0-8.802-.418c1.162.287 2.287.704 3.354 1.243Z"/>
+  <path d="M5.382 17.082v-6.457a3.7 3.7 0 0 1 .45-1.761 3.733 3.733 0 0 1 1.238-1.34 3.915 3.915 0 0 1 3.433-.245c.176.03.347.084.508.161l5.753 2.856c.082.05.161.105.236.165a2.128 2.128 0 0 0-.953-1.455l-5.51-3.284c-1.74-.857-3.906-1.523-5.244-1.097a9.96 9.96 0 0 0-2.5 3.496 9.895 9.895 0 0 0 .283 8.368 9.973 9.973 0 0 0 2.73 3.322 17.161 17.161 0 0 1-.424-2.729Z"/>
+  <path d="m19.102 16.163-.272.183c-2.557 1.74-4.169 2.64-4.698 2.935a4.083 4.083 0 0 1-2 .53 3.946 3.946 0 0 1-1.983-.535 3.788 3.788 0 0 1-1.36-1.361 3.752 3.752 0 0 1-.51-1.85 1.812 1.812 0 0 1-.043-.26V9.143c0-.024.009-.046.01-.07-.056.02-.11.043-.162.07a1.796 1.796 0 0 0-.787 1.516v6.377a10.67 10.67 0 0 0 1.113 4.27 10.11 10.11 0 0 0 8.505-.53 10.022 10.022 0 0 0 3.282-2.858 9.936 9.936 0 0 0 1.75-3.97 19.615 19.615 0 0 1-2.845 2.216Z"/>
+</svg>
+
+<a class="block mb-8 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+<p class="leading-loose font-normal text-gray-700 dark:text-gray-400">Taper la commande <span class="font-medium">"npm install flowbite"<sapn> dans le terminal</span> <br> Modifiez le fichier <span class="font-medium">tailwind.config.js</span><br>
+<span class="font-medium">'// tailwind.config.js<br>
+module.exports = {<br>
+  content: [<br>
+    "./assets/**/*.js",<br>
+    "./templates/**/*.html.twig",<br>
+    "./node_modules/flowbite/**/*.js" // set up the path to the flowbite package<br>
+  ],<br>
+  theme: {<br>
+    extend: {},<br>
+  },<br>
+  plugins: [<br>
+    require('flowbite/plugin') // add the flowbite plugin<br>
+  ],<br>
+}'</span><br>
+
+Dans <span class="font-medium">./assets/app.js</span> ajouter :
+<br>
+
+<span class="font-medium">import 'flowbite';</span></p><br>
+</a>
+<hr class="w-48 h-1 mx-auto my-4 bg-purple-700 border-0 rounded md:my-10 dark:bg-gray-900">
+
+<div class="leading-loose">
+<h5 class="text-center mb-8  text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Installation terminée</h5>
+
+<p class="text-center">Pour l'installation j'ai utilisé ces sites : <br>
+<span class="font-medium flex flex-row "><svg class="mr-1 w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M15.907 11.998 10.332 9.23a.9.9 0 0 1-.16-.037l-.018-.007v6.554c0 .017.008.034.01.051l2.388-2.974 3.355-.82Z"/>
+  <path d="m11.463 4.054 5.579 3.323A4.02 4.02 0 0 1 18.525 9c.332.668.47 1.414.398 2.155a3.07 3.07 0 0 1-.745 1.65 3.108 3.108 0 0 1-1.55.951c-.022.007-.045.005-.07.01-.062.03-.126.057-.191.08l-2.72.667-1.992 2.48c-.18.227-.41.409-.67.534.047.034.085.077.137.107a2.05 2.05 0 0 0 1.995.035c.592-.33 2.15-1.201 4.636-2.892l.28-.19c1.328-.895 3.616-2.442 3.967-4.215a9.94 9.94 0 0 0-1.713-4.154 10.027 10.027 0 0 0-3.375-2.989 10.107 10.107 0 0 0-8.802-.418c1.162.287 2.287.704 3.354 1.243Z"/>
+  <path d="M5.382 17.082v-6.457a3.7 3.7 0 0 1 .45-1.761 3.733 3.733 0 0 1 1.238-1.34 3.915 3.915 0 0 1 3.433-.245c.176.03.347.084.508.161l5.753 2.856c.082.05.161.105.236.165a2.128 2.128 0 0 0-.953-1.455l-5.51-3.284c-1.74-.857-3.906-1.523-5.244-1.097a9.96 9.96 0 0 0-2.5 3.496 9.895 9.895 0 0 0 .283 8.368 9.973 9.973 0 0 0 2.73 3.322 17.161 17.161 0 0 1-.424-2.729Z"/>
+  <path d="m19.102 16.163-.272.183c-2.557 1.74-4.169 2.64-4.698 2.935a4.083 4.083 0 0 1-2 .53 3.946 3.946 0 0 1-1.983-.535 3.788 3.788 0 0 1-1.36-1.361 3.752 3.752 0 0 1-.51-1.85 1.812 1.812 0 0 1-.043-.26V9.143c0-.024.009-.046.01-.07-.056.02-.11.043-.162.07a1.796 1.796 0 0 0-.787 1.516v6.377a10.67 10.67 0 0 0 1.113 4.27 10.11 10.11 0 0 0 8.505-.53 10.022 10.022 0 0 0 3.282-2.858 9.936 9.936 0 0 0 1.75-3.97 19.615 19.615 0 0 1-2.845 2.216Z"/>
+</svg>
+Flowbite : </span><a href="https://flowbite.com/docs/getting-started/symfony/">https://flowbite.com/docs/getting-started/symfony/</a><br>
+<span class="font-medium flex flex-row"><svg class="mr-1 w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M11.782 5.72a4.773 4.773 0 0 0-4.8 4.173 3.43 3.43 0 0 1 2.741-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.934-2.865 3.137-3.921-.969 1.379-2.44 2.207-4.259 1.231-1.253-.673-2.19-3.438-5.959-3.318ZM6.8 11.979A4.772 4.772 0 0 0 2 16.151a3.431 3.431 0 0 1 2.745-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.933-2.865 3.137-3.921-.97 1.379-2.44 2.208-4.259 1.231-1.253-.673-2.19-3.443-5.963-3.317Z"/>
+</svg>
+TailwindCSS : </span><a href="https://tailwindcss.com/docs/guides/symfony">https://tailwindcss.com/docs/guides/symfony</a><br>
+<span class="font-medium flex flex-row"><svg class="mr-1 w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M17 20v-5h2v6.988H3V15h1.98v5H17Z"/>
+  <path d="m6.84 14.522 8.73 1.825.369-1.755-8.73-1.825-.369 1.755Zm1.155-4.323 8.083 3.764.739-1.617-8.083-3.787-.739 1.64Zm3.372-5.481L10.235 6.08l6.859 5.704 1.132-1.362-6.859-5.704ZM15.57 17H6.655v2h8.915v-2ZM12.861 3.111l6.193 6.415 1.414-1.415-6.43-6.177-1.177 1.177Z"/>
+</svg> Résolution du BUG "ERROR  Failed to compile with 1 errors" : </span><a href="https://stackoverflow.com/questions/77684268/bootstrap-cannot-find-symfony-stimulus-bundle">https://stackoverflow.com/questions/77684268/bootstrap-cannot-find-symfony-stimulus-bundle</a></p>
+</div>
+<hr class="w-8 h-8 mx-auto my-8 bg-green-500 border-0 rounded md:my-12 dark:bg-gray-700">
+<h5 class="text-center my-8 mx-8 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Vous pouvez maintenant accéder aux documentations <a class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://tailwindui.com/">TailwindCSS</a> et <a class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline" href="https://flowbite.com/">Flowbite </a>pour ajouter du contenu à vos pages</h5>
+<hr class="w-16 h-1 mx-auto my-4 bg-blue-700 border-0 rounded md:my-10 dark:bg-gray-900">
+<h5 class="text-center my-8  text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Exemple de composant <mark class="px-2 text-white bg-blue-600 rounded dark:bg-blue-500">TailwindCSS</mark> à intégrer :</h5>
+
+</div>
+
+
+<div class="lg:mx-96 md:mx-32">
+    <div class="mb-2 w-3/5 flex justify-between items-center">
+        <p class="text-sm font-medium text-gray-900 dark:text-white">Exemple de composant TailwindCSS</p>
+        
+<button data-popover-target="popover-default" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Default popover</button>
+
+<div data-popover id="popover-default" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+    <div class="px-3 py-2 bg-gray-100 border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-gray-700">
+        <h3 class="font-semibold text-gray-900 dark:text-white">Aperçu</h3>
+    </div>
+    <div class="px-3 py-2">
+        <img src="{{asset("./build/imagesabd/tail.png")}}" alt="aperçu">
+    </div>
+    <div data-popper-arrow></div>
+</div>
+
+    </div>
+    <div class="relative bg-gray-50 rounded-lg dark:bg-gray-700 p-4 h-full">
+        <div class="overflow-scroll h-full">
+            <pre><code id="code-block" class="text-sm text-gray-500 dark:text-gray-400 whitespace-pre">
+            &lt;div class=&quot;bg-white&quot;&gt;
+  &lt;header class=&quot;absolute inset-x-0 top-0 z-50&quot;&gt;
+    &lt;nav class=&quot;flex items-center justify-between p-6 lg:px-8&quot; aria-label=&quot;Global&quot;&gt;
+      &lt;div class=&quot;flex lg:flex-1&quot;&gt;
+        &lt;a href=&quot;#&quot; class=&quot;-m-1.5 p-1.5&quot;&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Your Company&lt;/span&gt;
+          &lt;img class=&quot;h-8 w-auto&quot; src=&quot;https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=600&quot; alt=&quot;&quot;&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;flex lg:hidden&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700&quot;&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Open main menu&lt;/span&gt;
+          &lt;svg class=&quot;h-6 w-6&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;1.5&quot; stroke=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;
+            &lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5&quot; /&gt;
+          &lt;/svg&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;hidden lg:flex lg:gap-x-12&quot;&gt;
+        &lt;a href=&quot;#&quot; class=&quot;text-sm font-semibold leading-6 text-gray-900&quot;&gt;Product&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;text-sm font-semibold leading-6 text-gray-900&quot;&gt;Features&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;text-sm font-semibold leading-6 text-gray-900&quot;&gt;Marketplace&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;text-sm font-semibold leading-6 text-gray-900&quot;&gt;Company&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;hidden lg:flex lg:flex-1 lg:justify-end&quot;&gt;
+        &lt;a href=&quot;#&quot; class=&quot;text-sm font-semibold leading-6 text-gray-900&quot;&gt;Log in &lt;span aria-hidden=&quot;true&quot;&gt;&amp;rarr;&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;!-- Mobile menu, show/hide based on menu open state. --&gt;
+    &lt;div class=&quot;lg:hidden&quot; role=&quot;dialog&quot; aria-modal=&quot;true&quot;&gt;
+      &lt;!-- Background backdrop, show/hide based on slide-over state. --&gt;
+      &lt;div class=&quot;fixed inset-0 z-50&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-between&quot;&gt;
+          &lt;a href=&quot;#&quot; class=&quot;-m-1.5 p-1.5&quot;&gt;
+            &lt;span class=&quot;sr-only&quot;&gt;Your Company&lt;/span&gt;
+            &lt;img class=&quot;h-8 w-auto&quot; src=&quot;https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=600&quot; alt=&quot;&quot;&gt;
+          &lt;/a&gt;
+          &lt;button type=&quot;button&quot; class=&quot;-m-2.5 rounded-md p-2.5 text-gray-700&quot;&gt;
+            &lt;span class=&quot;sr-only&quot;&gt;Close menu&lt;/span&gt;
+            &lt;svg class=&quot;h-6 w-6&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;1.5&quot; stroke=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;
+              &lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; d=&quot;M6 18L18 6M6 6l12 12&quot; /&gt;
+            &lt;/svg&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mt-6 flow-root&quot;&gt;
+          &lt;div class=&quot;-my-6 divide-y divide-gray-500/10&quot;&gt;
+            &lt;div class=&quot;space-y-2 py-6&quot;&gt;
+              &lt;a href=&quot;#&quot; class=&quot;-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50&quot;&gt;Product&lt;/a&gt;
+              &lt;a href=&quot;#&quot; class=&quot;-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50&quot;&gt;Features&lt;/a&gt;
+              &lt;a href=&quot;#&quot; class=&quot;-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50&quot;&gt;Marketplace&lt;/a&gt;
+              &lt;a href=&quot;#&quot; class=&quot;-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50&quot;&gt;Company&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;py-6&quot;&gt;
+              &lt;a href=&quot;#&quot; class=&quot;-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50&quot;&gt;Log in&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/header&gt;
+
+  &lt;div class=&quot;relative isolate px-6 pt-14 lg:px-8&quot;&gt;
+    &lt;div class=&quot;absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80&quot; aria-hidden=&quot;true&quot;&gt;
+      &lt;div class=&quot;relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]&quot; style=&quot;clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mx-auto max-w-2xl py-32 sm:py-48 lg:py-56&quot;&gt;
+      &lt;div class=&quot;hidden sm:mb-8 sm:flex sm:justify-center&quot;&gt;
+        &lt;div class=&quot;relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20&quot;&gt;
+          Announcing our next round of funding. &lt;a href=&quot;#&quot; class=&quot;font-semibold text-indigo-600&quot;&gt;&lt;span class=&quot;absolute inset-0&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;Read more &lt;span aria-hidden=&quot;true&quot;&gt;&amp;rarr;&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;text-center&quot;&gt;
+        &lt;h1 class=&quot;text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl&quot;&gt;Data to enrich your online business&lt;/h1&gt;
+        &lt;p class=&quot;mt-6 text-lg leading-8 text-gray-600&quot;&gt;Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.&lt;/p&gt;
+        &lt;div class=&quot;mt-10 flex items-center justify-center gap-x-6&quot;&gt;
+          &lt;a href=&quot;#&quot; class=&quot;rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600&quot;&gt;Get started&lt;/a&gt;
+          &lt;a href=&quot;#&quot; class=&quot;text-sm font-semibold leading-6 text-gray-900&quot;&gt;Learn more &lt;span aria-hidden=&quot;true&quot;&gt;&amp;rarr;&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]&quot; aria-hidden=&quot;true&quot;&gt;
+      &lt;div class=&quot;relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]&quot; style=&quot;clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+        </div>
+    <div class="absolute top-2 end-2 bg-gray-50 dark:bg-gray-700">
+        <button data-copy-to-clipboard-target="code-block" data-copy-to-clipboard-content-type="innerHTML" data-copy-to-clipboard-html-entities="true" class="text-gray-900 dark:text-gray-400 m-0.5 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700 rounded-lg py-2 px-2.5 inline-flex items-center justify-center bg-white border-gray-200 border">
+            <span id="default-message" class="inline-flex items-center">
+                <svg class="w-3 h-3 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                    <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2Zm-3 14H5a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2Zm0-4H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Zm0-5H5a1 1 0 0 1 0-2h2V2h4v2h2a1 1 0 1 1 0 2Z"/>
+                </svg>
+                <span class="text-xs font-semibold">Copier le code</span>
+            </span>
+            <span id="success-message" class="hidden inline-flex items-center">
+                <svg class="w-3 h-3 text-blue-700 dark:text-blue-500 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                </svg>
+                <span class="text-xs font-semibold text-blue-700 dark:text-blue-500">Copié !</span>   
+            </span>
+        </button>
+    </div>
+    </div>
+    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Source du composant : <a href="https://tailwindui.com/components/marketing/sections/heroes">https://tailwindui.com/components/marketing/sections/heroes</a></p>
+<h5 class=" my-8  text-xl font-bold tracking-tight text-gray-900 dark:text-white">Pour visualiser et tester le rendu final rendez-vous sur la <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://tailwindui.com/components/marketing/sections/heroes" target="_blank">documentation</a> officiel de TailwindCSS</h5>
+</div>
+
+
+
+
+
+
+{% endblock %}
+
+
+
+
+{% block javascripts %}
+{{ parent() }}
+
+<script>
+
+
+   
+
+   
+
+</script>
+{% endblock %}
